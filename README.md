@@ -42,3 +42,17 @@ import pandas as pd
 
 train_df = pd.read_csv("../../data/training_sample.csv")
 test_df = pd.read_csv("../../data/testing_sample.csv")
+
+
+## Swedish dataset version
+
+We keep the original Kaggle files and also provide Swedish-renamed copies:
+
+- data/training_sample_svenska.csv
+- data/testing_sample_svenska.csv
+
+Target variable in Swedish:
+
+- genomfort_bestallning
+
+Note: Some Swedish names are adapted to fit the Webhallen case/story. The underlying 0/1 values are unchanged from the original dataset.
